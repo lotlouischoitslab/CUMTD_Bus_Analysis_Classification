@@ -1,4 +1,4 @@
-# Champaign-Urbana Mass Transit District Bus Classification
+## Champaign-Urbana Mass Transit District Bus Classification
 
 ## Contributors:
 - ##### Louis Sungwoo Cho (Civil & Environmental Engineering Transportation & Computer Science Minor)
