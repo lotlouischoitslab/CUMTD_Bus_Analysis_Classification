@@ -1,4 +1,4 @@
-## ITE@UIUC Engineering Open House Public Transportation Systems 
+## ITE@UIUC Engineering Open House 2023
 
 ### Contributors:
 - #### Louis Sungwoo Cho (Civil & Environmental Engineering Transportation & Computer Science Minor)
