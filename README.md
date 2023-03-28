@@ -6,6 +6,7 @@
 - #### Saranya Yegappan (Civil & Environmental Engineering)
 - #### Brandon Tomic (Civil & Environmental Engineering Transportation)
 - #### Jesse Ekanya (Civil & Environmental Engineering Transportation)
+- ### Sam Guagliardo (Civil & Environmental Engineering Transportation)
 
 
 ## Project Description:
