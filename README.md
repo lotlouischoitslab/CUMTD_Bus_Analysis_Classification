@@ -242,7 +242,8 @@ According to the plots above, the train accuracy is very close to the testing ac
 # Prediction
 Once all the image datasets have been processed and the accuracy and loss score have been analyzed, a few set of images were given into the model to determine whether the model is accurate enough predicting the bus type of a given image. Testing datasets were given into the model and the predictor plots the actual image and the predicted image with a confidence score respectively. 
 
-![title](images/predicted_output.png)
-#### The predicted output of each image data given into our model with the train type and the confidence score for each image.
+![title](images/success1.png)
+![title](images/success2.png)
+#### The predicted output of each image data given into our model with the bus type and the confidence score for each image.
 
 From the image above, it is clearly evident that the predictor estimates the bus class very accurately. The confidence is also very high for each results meaning that the results have turned out very well. Overall, the model performed very well with all the bus image datasets.
