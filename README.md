@@ -153,6 +153,15 @@ The dataset for the Champaign-Urbana Mass Transit bus passenger ridership volume
 # Deep Learning Model Motivation
 Artificial Intelligence has wide range of applications in Transportation. Not only just Autonomous Vehicles, but also to Intelligent Transportation Systems (ITS), public transit, high-speed rail, etc. Machine Learning is commonly used for transportation dataset training and testing to make predictions in traffic capacity or classify vehicle or passenger types. Reinforcement Learning such as Markov Decision Process (MDP), Bellman Equation and Deep Q-Learning are crucial for controls. Likewise, Deep Learning for Computer Vision has many different powerful algorithms for image classification and object detection. For transportation and traffic engineers, traffic impact study is performed on major intersections or major freeways. Usually, Tuesdays, Wednesdays and Thursdays are the days when traffic capacity analysis is performed. However, having to manually count the number of vehicles on roadway segments is very difficult and time consuming. To overcome this issue, a deep learning model was created using Convolutional Neural Networks (CNN) so the overhead observer can be able to classify which type of vehicle passes in certain areas and store into a database allowing real-time traffic analysis. Through this data, macroscopic traffic parameters such as traffic flow in vehicles per hour, traffic density in vehicles per density and average space-mean speed in km/h can be calculated. For this model, the CNN classifier for buses was created. 
 
+# Traffic Flow Theory
+
+$$ q = kv_s $$
+
+$$ k = \frac{1}{s} $$
+
+
+$$ q = \frac{1}{\overlineh} $$
+
 
 # Image Preparation
 Random CUMTD bus image datasets were used to train the neural network model for image classification. 158 files were then split into 8 categories.
