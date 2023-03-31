@@ -12,6 +12,143 @@
 ## Project Description:
 Institute of Transportation Engineers UIUC Chapter (aka ITE@UIUC) is a registered student organization at the University of Illinois at Urbana-Champaign. Our organization has been working on collecting images of transit buses operated by the Champaign-Urbana Mass Transit District (CUMTD). 
 
+# Champaign-Urbana Bus Ridership Analysis & Prediction
+## Contributors:
+- ### Louis Sungwoo Cho
+
+# Champaign-Urbana Mass Transit Passenger Prediction & Analysis
+This project is about analyzing and predicting the ridership of the buses in the Champaign-Urbana area operated by the Champaign-Urbana Mass Transit District also known as CUMTD using various Machine Learning algorithms. Datasets were acquired from the official Champaign County Regional Data Portal which could be found here:
+- #### Dataset source: [CUMTD Transit Data Ridership](https://data.ccrpc.org/da_DK/dataset/transit-ridership)
+
+![Alt text](https://yourewelcomecu.com/wp-content/uploads/2015/09/Church-Neil-web.jpg)
+
+
+#### A 5W GREEN hopper bus approaches a bus stop shown above. 
+- #### Image source: [CUMTD Bus Photos](https://yourewelcomecu.com/cumtd-bus-photos/)
+
+Datasets from the years 1997 to 2022 and months of July, October, December and February were used to analyze and predict the passenger volume for the bus network.
+
+
+![Alt text](https://mtd.org/media/1096/weekday-daytime-no-insets.png?anchor=center&mode=crop&width=1200&height=720&rnd=132734497340000000)
+
+
+The image above shows the CUMTD bus network that connects Campustown, Champaign and Urbana.
+- #### Image source: [CUMTD Schedules](https://mtd.org/maps-and-schedules/maps/)
+
+As shown in the image above, the CUMTD bus network is very dense connecting almost all the popular places visited by many passengers.
+
+
+# Motivation
+
+The Champaign-Urbana Mass Transit District also known as (CUMTD) serves as a great public transportation system throughout the entire University of Illinois at Urbana-Champaign area and a crucial type of mobility for university students to travel around on campus. You can go to Grainger Library, Campus Instructional Facility (CIF), Newmark Civil Engineering Laboratory, Thomas Siebel Center for Computer Science, Electrical & Computer Engineering Building, Sidney Lu Mechanical Engineering Building, Business Instructional Facility, Altgeld Hall, Main Library, Foellinger Auditorium and many more wonderful places by using the CUMTD buses. People even use the buses to go to downtown Champaign or to downtown Urbana to get some delicious food or to even go shopping, watch movies and even to enjoy some karaoke. As a Computational Transportation Science Student at UIUC, I decided to perform a traffic capacity analysis on the passenger ridership volume of the CUMTD buses and perform time series forecasting to estimate the predicted passenger volume in the near future.
+
+# Seasonal Ridership Data Visualization
+
+This section analyzes the passenger riderhip trend in four different months: October, July, February and December in addition to the total number of passengers with respect to years from 1997 to 2022. A scatter plot including all the monthls and the total bus ridership passenger analyzed from the years 1997 to 2022 were also plotted.
+
+![title](figures/barchart.png)
+
+**Figure 1. above shows the bar chart of all the data including both months and total ridership.**
+
+![title](figures/annual.png)
+
+**Figure 2. above shows the scatter plot of all the data including both months and total ridership.**
+
+![title](figures/months.png)
+
+**Figure 3. above shows the ridership of the CUMTD bus broken down into months.**
+
+![title](figures/total_scatter.png)
+
+**Figure 4. above shows the total ridership of the CUMTD bus.**
+
+
+![title](figures/Februarynormal.png)
+
+**Figure 5. above shows the normal distribution of passengers in February.**
+
+![title](figures/Julynormal.png)
+
+**Figure 6. above shows the normal distribution of passengers in July.**
+
+![title](figures/Octobernormal.png)
+
+**Figure 7. above shows the normal distribution of passengers in October.**
+
+![title](figures/Decembernormal.png)
+
+**Figure 8. above shows the normal distribution of passengers in December.**
+
+![title](figures/Totalnormal.png)
+
+**Figure 9. above shows the normal distribution of the total passengers.**
+
+For most of the seasonal and the total normal distribution, the passenger distribution is heavily skewed to the left. This means that the median passenger capacity is higher than the mean value. The passenger normal distribution for July is slightly skewed to the right.
+
+![title](figures/pie_chart.png)
+
+**Figure 10. above shows the seasonal pie chart.**
+
+![title](figures/boxplot.png)
+
+**Figure 11. above shows the seasonal box plot.**
+
+Datasets were then further broken down into months and total ridership to determine the line of best fit for all the plotted data points. The following figure shows a polynomial regression of degree 5 line curve plotted with respect to the analyzed data.
+
+
+![title](figures/October.png)
+
+**Figure 12. above shows the line of best fit for the October passenger ridership from 1997 to 2022.**
+
+![title](figures/July.png)
+
+**Figure 13. above shows the line of best fit for the July passenger ridership from 1997 to 2022.**
+
+![title](figures/February.png)
+
+**Figure 14. above shows the line of best fit for the February passenger ridership from 1997 to 2022.**
+
+![title](figures/December.png)
+
+**Figure 15. above shows the line of best fit for the December passenger ridership from 1997 to 2022.**
+
+![title](figures/Total.png)
+
+**Figure 16. above shows the line of best fit for the total passenger ridership from 1997 to 2022.**
+
+Although all the figures above called the function to perform data analysis and determine the line of best fit using the linear regression method, the data scattered shows that the trend line approximately matches the plots using the degree of 5. Thus, polynomial regression is more suitable for the analyzed dataset. According to the monthly bus ridership plots with respect to time in years, there is an increasing trend. However around the year 2020, there has been a significant drop in monthly ridership and the total ridership with respect to years due to the COVID-19 pandemic. After the pandemic, the CUMTD ridership is trending upwards.
+
+# Machine Learning 
+
+Several Machine Learning models were used to analyze the total passenger trend with respect to each seasonal data. Because this project is about analyzing data over a series of time, supervised models were mainly used for dataset training and testing. Linear Regression was used for dataset training and testing. A linear trend was analyzed for the Linear Regression Model to analyze the relation between predicted and actual values to show the performance of the machine learning models. 
+
+![title](figures/Februarylinear.png)
+
+![title](figures/Julylinear.png)
+
+![title](figures/Octoberlinear.png)
+
+![title](figures/Decemberlinear.png)
+
+**Figure 17. above shows Linear Regression trend for each seasonal data.**
+
+# Time Series Forecasting
+
+Finally, using a moving average, forecasting of the ridership of CUMTD buses was performed. After fitting the given model of passenger volume training datasets with the moving average, seasonal periods were used to forecast including previous data from 2021 to predicted passenger volume in 2030. Once the forecasting was complete, the forecasted data was plotted on the same graph as the historical data that were used to train and predict the future passenger volume. 
+
+![title](figures/future.png)
+
+**Figure 18. above shows the graph of the projected passenger volume until 2030 and the historical data.**
+
+# Conclusive Remarks
+
+The dataset for the Champaign-Urbana Mass Transit bus passenger ridership volume from the official Champaign County Regional Data Portal was initially used to analyze the monthly ridership with respect to years to determine which month has the highest volume of passengers. The given dataset was then cleaned and parsed to perform time series forecasting to predict future passenger volume of the CUMTD buses. Time-series model was used to forecast future CUMTD passenger volumes. The historical results show that there has been a drastic drop in the year 2020 due to COVID 19 pandemic. However, after the pandemic, passenger volumes have been trending positively and is expected to fluctuate between seasons. Usually during the full school semester seasons at UIUC, passenger volumes will continuosly to be higher than seasons during summer or winter breaks. Overall, it shows that the Champaign-Urbana Mass Transit District is one of the most convenient form of travel between campuses in UIUC and to cities in Urbana and Champaign respectively.
+
+![title](images/bus_wait.jpg)
+
+#### A 5W bus bound for Round Barn RD waits infront of Sidney Lu Mechanical Engineering Building shown above.
+
+
 
 ## Deep Learning Model Motivation
 South Korea first opened their high-speed rail network on April 1st, 2004 to make rail travel time more fast and convenient. When I first traveled to South Korea, I still remember when I took KTX with my family for the first time when we went to Busan. I was excited to ride the high-speed train because the U.S does not have bullet trains which can travel as fast as the KTX trains. After nearly 2 decades the first KTX line the Gyeongbu High-Speed Line (경부고속선) connecting Seoul to Busan opened, the high-speed rail network has expanded almost throughout the entire country including the Honam High-Speed Line (호남고속선) connecting Seoul to Gwangjusongjeong to Mokpo, Suseo High-Speed Line or Sudogwon High-Speed Line (수서고속선/수도권고속선) connecting the south side of Seoul Suseo to Busan to Gwangju to Mokpo, Gyeongjeon Line (경전선) connecting Seoul to Masan to Jinju, Jeolla Line (전라선) connecting Seoul to Yeosu-EXPO, Donghae Line (동해선) connecting Seoul to Pohang, Gangneung Line (강릉선) also known as the 2018 Pyeongchang Olympics Line connecting Seoul to Gangneung, Yeongdong Line (영동선) connecting Seoul to Donghae, Jungang Line (중앙선) connecting Seoul to Andong (sections to Uiseong, Yeongcheon, Singyeongju, Taehwagang, Busan-Bujeon to be opened in December 2023), and the Jungbunaeryuk Line (중부내륙선) connecting Bubal to Chungju. As seen above, due to the continuing expansion of the South Korean high-speed train network, Hyundai ROTEM has designed many different types of variants to serve in various lines depending on their operational speed respectively. Due to each locomotive having unique features, I decided to create a deep learning model that can classify the 8 types of trains: KTX-1, KTX-EUM, KTX-Sancheon, and SRT. 
