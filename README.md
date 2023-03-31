@@ -159,63 +159,64 @@ South Korea first opened their high-speed rail network on April 1st, 2004 to mak
 Random CUMTD bus image datasets were used to train the neural network model for image classification. 158 files were then split into 8 categories with each category having 10 images of the same class. 
 
 ![title](images/random_bus1.png)
-### Figure 1. above shows the random ADA images from the given image dataset.
+### Random ADA images from the given image dataset.
 
 ![title](images/random_bus2.png)
-### Figure 2. above shows the random D60LF images from the given image dataset.
+### Random D60LF images from the given image dataset.
 
 ![title](images/random_bus3.png)
-### Figure 3. above shows the random DE40 images from the given image dataset.
+### Random DE40 images from the given image dataset.
 
 ![title](images/random_bus4.png)
-### Figure 4. above shows the random DE60 images from the given image dataset.
+### Random DE60 images from the given image dataset.
 
 ![title](images/random_bus5.png)
-### Figure 5. above shows the random MAIN images from the given image dataset.
+### Random MAIN images from the given image dataset.
 
 ![title](images/random_bus6.png)
-### Figure 6. above shows the random XDE40 images from the given image dataset.
+### Random XDE40 images from the given image dataset.
 
 ![title](images/random_bus7.png)
-### Figure 7. above shows the random XDE60 images from the given image dataset.
+### Random XDE60 images from the given image dataset.
 
 ![title](images/random_bus8.png)
-### Figure 8. above shows the random XHE60 images from the given image dataset.
+### Random XHE60 images from the given image dataset.
 
 Once all the random image datasets were printed out, the entire image dataset was split into training and testing sets. 80% of the total image datasets were used for training and the remaining 20% of the total image datasets were used for testing. The epochs number was set to 20 so the training model was run for 20 times. Then all the data were shuffled before the neural network model was created. 
 
 # Convolutional Neural Network (CNN) Model
-Convolutional Neural Network (CNN) model was used to classify the high-speed train images. One of the biggest advantage of using CNN models is that the neural network is able to detect the important features into several distinct classes from the given image datasets without any human supervision and also being much more accurate and computationally efficient. Hence, this deep learning model was chosen to train all the bus image datasets for this project. 
+Convolutional Neural Network (CNN) model was used to classify the CUMTD bus images. One of the biggest advantage of using CNN models is that the neural network is able to detect the important features into several distinct classes from the given image datasets without any human supervision and also being much more accurate and computationally efficient. Hence, this deep learning model was chosen to train all the bus image datasets for this project. 
 
 ![title](images/cnn_process.png)
-#### Figure 5. above shows how the cnn model processes the image dataset with series of convolution and pooling before flattening out the image to predict the output.
+#### Shows how the cnn model processes the image dataset with series of convolution and pooling before flattening out the image to predict the output.
 
 The model used for this project performs multiclass classification so the output is set to be softmax. But why is convolution so crucial in image classification? Convolution is a set of mathematical operations performed by the computer to merge two pieces of critical information from the image. A feature map for the images is produced using a 'convolution filter'. 
 
 ![title](images/cnn_filter.png)
-#### Figure 6. above shows how the convolution filter produces the feature map.
+#### Shows how the convolution filter produces the feature map.
 
 The convolution operation is then performed by splitting the 3 by 3 matrix into merged 3 by 3 matrix by doing an element-wise matrix multiplication and summing the total values. 
 
 ![title](images/cnn_matrix.gif)
-#### Figure 7. above shows the matrix operation of the convolution filter.
+#### Shows the matrix operation of the convolution filter.
 
 ![title](images/cnn_visual.gif)
-#### Figure 8. above shows the visualization of the  convolution input of the image.
+#### Shows the visualization of the  convolution input of the image.
 
 Once all the convolution has been performed on the image datasets, pooling is then used to reduce the dimensions, a crucial step to enable reducing the number of parameters shortening the training time and preventing overfitting. Maximum pooling was used for this model which only uses the maximum value from the pooling window. 
 
 ![title](images/cnn_pooling2d.png)
-#### Figure 9. above shows the pooling of the processed image in a 2 by 2 window.
+#### Pooling of the processed image in a 2 by 2 window.
 
 ![title](images/cnn_pooling3d.png)
-#### Figure 10. above shows the pooling of the processed image in a 3 by 3 window.
+#### Pooling of the processed image in a 3 by 3 window.
 
 Finally after adding all the convolution and pooling layers, the entire 3D tensor is flatten out to be a 1D vector into a fully connected layer to produce the output. 
 ![title](images/cnn_imp.png)
-#### Figure 11. above shows the visual implementation of the CNN model. 
+#### Visual implementation of the CNN model. 
 
-##### Original Source for the CNN Explanation: [Towarddatascience Applied Deep Learning](https://towardsdatascience.com/applied-deep-learning-part-4-convolutional-neural-networks-584bc134c1e2#:~:text=The%20main%20advantage%20of%20CNN,CNN%20is%20also%20computationally%20efficient)
+##### Original Source for the CNN Explanation: 
+-  Dertat, A. (2017, November 13). Applied deep learning - part 4: Convolutional Neural Networks. Medium. Retrieved March 30, 2023, from https://towardsdatascience.com/applied-deep-learning-part-4-convolutional-neural-networks-584bc134c1e2 
 
 # Results
 Once the CNN model was built for image classification training with a given number of training steps also known as epochs set to 20, the accuracy score graph and the loss score graph with respect to each epoch step were plotted. 
@@ -232,6 +233,6 @@ According to the plots above, the train accuracy is very close to the testing ac
 Once all the image datasets have been processed and the accuracy and loss score have been analyzed, a few set of images were given into the model to determine whether the model is accurate enough predicting the train type of a given image. Testing datasets were given into the model and the predictor plots the actual image and the predicted image with a confidence score respectively. 
 
 ![title](images/predicted_output.png)
-#### Figure 14. above shows the predicted output of each image data given into our model with the train type and the confidence score for each image.
+#### The predicted output of each image data given into our model with the train type and the confidence score for each image.
 
 From the image above, it is clearly evident that the predictor estimates the train class very accurately. The confidence is also very high for each results meaning that the results have turned out very well. Overall, the model performed very well with all the bus image datasets.
