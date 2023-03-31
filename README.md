@@ -150,7 +150,7 @@ The dataset for the Champaign-Urbana Mass Transit bus passenger ridership volume
 
 
 
-## Deep Learning Model Motivation
+# Deep Learning Model Motivation
 South Korea first opened their high-speed rail network on April 1st, 2004 to make rail travel time more fast and convenient. When I first traveled to South Korea, I still remember when I took KTX with my family for the first time when we went to Busan. I was excited to ride the high-speed train because the U.S does not have bullet trains which can travel as fast as the KTX trains. After nearly 2 decades the first KTX line the Gyeongbu High-Speed Line (경부고속선) connecting Seoul to Busan opened, the high-speed rail network has expanded almost throughout the entire country including the Honam High-Speed Line (호남고속선) connecting Seoul to Gwangjusongjeong to Mokpo, Suseo High-Speed Line or Sudogwon High-Speed Line (수서고속선/수도권고속선) connecting the south side of Seoul Suseo to Busan to Gwangju to Mokpo, Gyeongjeon Line (경전선) connecting Seoul to Masan to Jinju, Jeolla Line (전라선) connecting Seoul to Yeosu-EXPO, Donghae Line (동해선) connecting Seoul to Pohang, Gangneung Line (강릉선) also known as the 2018 Pyeongchang Olympics Line connecting Seoul to Gangneung, Yeongdong Line (영동선) connecting Seoul to Donghae, Jungang Line (중앙선) connecting Seoul to Andong (sections to Uiseong, Yeongcheon, Singyeongju, Taehwagang, Busan-Bujeon to be opened in December 2023), and the Jungbunaeryuk Line (중부내륙선) connecting Bubal to Chungju. As seen above, due to the continuing expansion of the South Korean high-speed train network, Hyundai ROTEM has designed many different types of variants to serve in various lines depending on their operational speed respectively. Due to each locomotive having unique features, I decided to create a deep learning model that can classify the 8 types of trains: KTX-1, KTX-EUM, KTX-Sancheon, and SRT. 
 
 
@@ -158,17 +158,29 @@ South Korea first opened their high-speed rail network on April 1st, 2004 to mak
 # Image Preparation
 Random CUMTD bus image datasets were used to train the neural network model for image classification. 158 files were then split into 8 categories with each category having 10 images of the same class. 
 
-![title](images/random_ktx_one.png)
-### Figure 1. above shows the 10 random KTX-1 images from the given image dataset.
+![title](images/random_bus1.png)
+### Figure 1. above shows the random ADA images from the given image dataset.
 
-![title](images/random_ktx_eum.png)
-### Figure 2. above shows the 10 random KTX-EUM images from the given image dataset.
+![title](images/random_bus2.png)
+### Figure 2. above shows the random D60LF images from the given image dataset.
 
-![title](images/random_ktx_sancheon.png)
-### Figure 3. above shows the 10 random KTX-Sancheon images from the given image dataset.
+![title](images/random_bus3.png)
+### Figure 3. above shows the random DE40 images from the given image dataset.
 
-![title](images/random_srt.png)
-### Figure 4. above shows the 10 random SRT images from the given image dataset.
+![title](images/random_bus4.png)
+### Figure 4. above shows the random DE60 images from the given image dataset.
+
+![title](images/random_bus5.png)
+### Figure 5. above shows the random MAIN images from the given image dataset.
+
+![title](images/random_bus6.png)
+### Figure 6. above shows the random XDE40 images from the given image dataset.
+
+![title](images/random_bus7.png)
+### Figure 7. above shows the random XDE60 images from the given image dataset.
+
+![title](images/random_bus8.png)
+### Figure 8. above shows the random XHE60 images from the given image dataset.
 
 Once all the random image datasets were printed out, the entire image dataset was split into training and testing sets. 80% of the total image datasets were used for training and the remaining 20% of the total image datasets were used for testing. The epochs number was set to 20 so the training model was run for 20 times. Then all the data were shuffled before the neural network model was created. 
 
