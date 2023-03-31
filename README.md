@@ -233,7 +233,10 @@ Once the CNN model was built for image classification training with a given numb
 ![title](loss.png)
 #### The loss score of the CNN model with respect to the number of steps. 
 
-According to the plots above, the train accuracy is very close to the testing accuracy as the number of epochs gradually increases. Overall, the model has produced a relatively high training accuracy. The number of losses meaning the error between the actual image and the predicted image decreases as more number of epochs are given into the model. This means that the chance of predicting a given image dataset accurately is very high. 
+According to the plots above, the train accuracy is very close to the testing accuracy as the number of epochs gradually increases. Overall, the model has produced a relatively high training accuracy. The number of losses meaning the error between the actual image and the predicted image decreases as more number of epochs are given into the model. This means that the chance of predicting a given image dataset accurately is very high. However, there has been an overfi
+
+
+According to the plots above, the training accuracy was very close to the testing accuracy as the number of epochs gradually increased. Overall the model has produced a relatively high training and testing accuracy. However, there was overfitting of the model because the testing loss score increased towards the end. To minimize overfitting in machine learning, more datasets and the neural network architecture are expected to be investigated. 
 
 # Prediction
 Once all the image datasets have been processed and the accuracy and loss score have been analyzed, a few set of images were given into the model to determine whether the model is accurate enough predicting the bus type of a given image. Testing datasets were given into the model and the predictor plots the actual image and the predicted image with a confidence score respectively. 
