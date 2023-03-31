@@ -188,7 +188,7 @@ Random CUMTD bus image datasets were used to train the neural network model for 
 ![title](images/random_bus8.png)
 ### Random XHE60 images from the given image dataset.
 
-Once all the random image datasets were printed out, the entire image dataset was split into training and testing sets. 80% of the total image datasets were used for training and the remaining 20% of the total image datasets were used for testing. The epochs number was set to 20 so the training model was run for 20 times. Then all the data were shuffled before the neural network model was created. 
+Once all the random image datasets were printed out, the entire image dataset was split into training and testing sets. 80% of the total image datasets were used for training and the remaining 20% of the total image datasets were used for testing. The epochs number was set to 15 so the training model was run for 15 times. Then all the data were shuffled before the neural network model was created. 
 
 # Convolutional Neural Network (CNN) Model
 Convolutional Neural Network (CNN) model was used to classify the CUMTD bus images. One of the biggest advantage of using CNN models is that the neural network is able to detect the important features into several distinct classes from the given image datasets without any human supervision and also being much more accurate and computationally efficient. Hence, this deep learning model was chosen to train all the bus image datasets for this project. 
