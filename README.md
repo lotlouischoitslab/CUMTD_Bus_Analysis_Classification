@@ -12,11 +12,7 @@
 ## Project Description:
 Institute of Transportation Engineers UIUC Chapter (aka ITE@UIUC) is a registered student organization at the University of Illinois at Urbana-Champaign. Our organization has been working on collecting images of transit buses operated by the Champaign-Urbana Mass Transit District (CUMTD). 
 
-# Champaign-Urbana Bus Ridership Analysis & Prediction
-## Contributors:
-- ### Louis Sungwoo Cho
-
-# Champaign-Urbana Mass Transit Passenger Prediction & Analysis
+## Champaign-Urbana Mass Transit Passenger Ridership Prediction & Analysis
 This project is about analyzing and predicting the ridership of the buses in the Champaign-Urbana area operated by the Champaign-Urbana Mass Transit District also known as CUMTD using various Machine Learning algorithms. Datasets were acquired from the official Champaign County Regional Data Portal which could be found here:
 - #### Dataset source: [CUMTD Transit Data Ridership](https://data.ccrpc.org/da_DK/dataset/transit-ridership)
 
