@@ -155,12 +155,12 @@ Artificial Intelligence has wide range of applications in Transportation. Not on
 
 # Traffic Flow Theory
 
-$$ q = kv_s $$
+$$ q = k\overline{v_s} $$
 
 $$ k = \frac{1}{s} $$
 
 
-$$ q = \frac{1}{\overlineh} $$
+$$ q = \frac{1}{\overline{h}} $$
 
 
 # Image Preparation
