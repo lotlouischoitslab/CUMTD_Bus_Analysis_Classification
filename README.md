@@ -229,11 +229,11 @@ Finally after adding all the convolution and pooling layers, the entire 3D tenso
 # Results
 Once the CNN model was built for image classification training with a given number of training steps also known as epochs set to 20, the accuracy score graph and the loss score graph with respect to each epoch step were plotted. 
 
-![title](images/accuracy.png)
-#### Figure 12. above shows the accuracy score of the CNN model with respect to the number of steps. 
+![title](accuracy.png)
+#### The accuracy score of the CNN model with respect to the number of steps. 
 
-![title](images/loss.png)
-#### Figure 13. above shows the loss score of the CNN model with respect to the number of steps. 
+![title](loss.png)
+#### The loss score of the CNN model with respect to the number of steps. 
 
 According to the plots above, the train accuracy is very close to the testing accuracy as the number of epochs gradually increases. Overall, the model has produced a relatively high training accuracy. The number of losses meaning the error between the actual image and the predicted image decreases as more number of epochs are given into the model. This means that the chance of predicting a given image dataset accurately is very high. 
 
