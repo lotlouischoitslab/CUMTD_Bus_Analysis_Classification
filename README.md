@@ -156,7 +156,7 @@ South Korea first opened their high-speed rail network on April 1st, 2004 to mak
 
 
 # Image Preparation
-Random CUMTD bus image datasets were used to train the neural network model for image classification. 158 files were then split into 8 categories with each category having 10 images of the same class. 
+Random CUMTD bus image datasets were used to train the neural network model for image classification. 158 files were then split into 8 categories.
 
 ![title](images/random_bus1.png)
 ### Random ADA images from the given image dataset.
@@ -230,9 +230,9 @@ Once the CNN model was built for image classification training with a given numb
 According to the plots above, the train accuracy is very close to the testing accuracy as the number of epochs gradually increases. Overall, the model has produced a relatively high training accuracy. The number of losses meaning the error between the actual image and the predicted image decreases as more number of epochs are given into the model. This means that the chance of predicting a given image dataset accurately is very high. 
 
 # Prediction
-Once all the image datasets have been processed and the accuracy and loss score have been analyzed, a few set of images were given into the model to determine whether the model is accurate enough predicting the train type of a given image. Testing datasets were given into the model and the predictor plots the actual image and the predicted image with a confidence score respectively. 
+Once all the image datasets have been processed and the accuracy and loss score have been analyzed, a few set of images were given into the model to determine whether the model is accurate enough predicting the bus type of a given image. Testing datasets were given into the model and the predictor plots the actual image and the predicted image with a confidence score respectively. 
 
 ![title](images/predicted_output.png)
 #### The predicted output of each image data given into our model with the train type and the confidence score for each image.
 
-From the image above, it is clearly evident that the predictor estimates the train class very accurately. The confidence is also very high for each results meaning that the results have turned out very well. Overall, the model performed very well with all the bus image datasets.
+From the image above, it is clearly evident that the predictor estimates the bus class very accurately. The confidence is also very high for each results meaning that the results have turned out very well. Overall, the model performed very well with all the bus image datasets.
