@@ -162,7 +162,7 @@ $$ k = \frac{1}{s} $$
 
 $$ q = \frac{1}{\overline{h}} $$
 
-q is traffic flow measured in vehicles per hour, k is the traffic density measured in vehicles per kilometer, vs is the space-mean speed of the vehicles. These are macroscopic traffic parameters. s is the spacing measured as km and h is the headway measured as time. 
+q is traffic flow measured in vehicles per hour, k is the traffic density measured in vehicles per kilometer, vs is the space-mean speed of the vehicles. These are macroscopic traffic parameters. s is the spacing measured as km and h is the headway measured as time. These are the microscopic traffic parameters. 
 
 
 # Image Preparation
