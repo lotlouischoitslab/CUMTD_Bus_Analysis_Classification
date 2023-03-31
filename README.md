@@ -224,6 +224,12 @@ Finally after adding all the convolution and pooling layers, the entire 3D tenso
 ##### Original Source for the CNN Explanation: 
 -  Dertat, A. (2017, November 13). Applied deep learning - part 4: Convolutional Neural Networks. Medium. Retrieved March 30, 2023, from https://towardsdatascience.com/applied-deep-learning-part-4-convolutional-neural-networks-584bc134c1e2 
 
+
+# Neural Network Architecture
+![title](images/model_summary.png)
+
+The Neural Network Architecture used for this project is shown above. 
+
 # Results
 Once the CNN model was built for image classification training with a given number of training steps also known as epochs set to 20, the accuracy score graph and the loss score graph with respect to each epoch step were plotted. 
 
