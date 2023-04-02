@@ -3,10 +3,11 @@
 ## Contributors:
 - #### Louis Sungwoo Cho (Civil & Environmental Engineering Transportation & Computer Science Minor)
 - #### Joey Junyi Cao (Aerospace Engineering)
+- #### Ethan Chow (Computer Engineering)
+- #### Sam Guagliardo (Civil & Environmental Engineering Transportation)
 - #### Saranya Yegappan (Civil & Environmental Engineering)
 - #### Jesse Ekanya (Civil & Environmental Engineering Transportation)
-- #### Sam Guagliardo (Civil & Environmental Engineering Transportation)
-- #### Ethan Chow (Computer Engineering)
+- #### Brandon Ma (Civil & Environmental Engineering Transportation)
 - #### Brandon Tomic (Civil & Environmental Engineering Transportation)
 
 ## Project Description:
