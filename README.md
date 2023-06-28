@@ -1,4 +1,4 @@
-# ITE@UIUC Engineering Open House 2023
+# CUMTD Bus Analysis & Classification
 
 ## Contributors:
 - #### Louis Sungwoo Cho (Civil & Environmental Engineering Transportation & Computer Science Minor)
@@ -11,7 +11,7 @@
 - #### Brandon Tomic (Civil & Environmental Engineering Transportation)
 
 ## Project Description:
-Institute of Transportation Engineers UIUC Chapter (aka ITE@UIUC) is a registered student organization at the University of Illinois at Urbana-Champaign. Our organization has been working on collecting images of transit buses operated by the Champaign-Urbana Mass Transit District (CUMTD). 
+Institute of Transportation Engineers UIUC Chapter (aka ITE@UIUC) is a registered student organization at the University of Illinois at Urbana-Champaign. Our organization has been working on collecting images of transit buses operated by the Champaign-Urbana Mass Transit District (CUMTD). Our RSO Institute of Transportation Engineers UIUC Chapter (ITE@UIUC) presented our project during the 2023 Engineering Open House (EOH) hosted by the Grainger College of Engineering at the University of Illinois at Urbana-Champaign (UIUC). 
 
 ## Champaign-Urbana Mass Transit Passenger Ridership Prediction & Analysis
 This project is about analyzing and predicting the ridership of the buses in the Champaign-Urbana area operated by the Champaign-Urbana Mass Transit District also known as CUMTD using various Machine Learning algorithms. Datasets were acquired from the official Champaign County Regional Data Portal which could be found here:
