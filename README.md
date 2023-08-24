@@ -1,14 +1,14 @@
 # CUMTD Bus Analysis & Classification
 
 ## Contributors:
-- #### Louis Sungwoo Cho (Civil & Environmental Engineering Transportation & Computer Science Minor)
+- #### Louis Sungwoo Cho (Civil Engineering Transportation & Computer Science Minor)
 - #### Joey Junyi Cao (Aerospace Engineering)
 - #### Ethan Chow (Computer Engineering)
-- #### Sam Guagliardo (Civil & Environmental Engineering Transportation)
-- #### Jesse Ekanya (Civil & Environmental Engineering Transportation)
-- #### Saranya Yegappan (Civil & Environmental Engineering)
-- #### Brandon Ma (Civil & Environmental Engineering Transportation)
-- #### Brandon Tomic (Civil & Environmental Engineering Transportation)
+- #### Sam Guagliardo (Civil Engineering Transportation)
+- #### Jesse Ekanya (Civil Engineering Transportation)
+- #### Saranya Yegappan (Environmental Engineering)
+- #### Brandon Mah (Civil Engineering Transportation)
+- #### Brandon Tomic (Civil Engineering Transportation)
 
 ## Project Description:
 Institute of Transportation Engineers UIUC Chapter (aka ITE@UIUC) is a registered student organization at the University of Illinois at Urbana-Champaign. Our organization has been working on collecting images of transit buses operated by the Champaign-Urbana Mass Transit District (CUMTD). Our RSO Institute of Transportation Engineers UIUC Chapter (ITE@UIUC) presented our project during the 2023 Engineering Open House (EOH) hosted by the Grainger College of Engineering at the University of Illinois at Urbana-Champaign (UIUC). 
