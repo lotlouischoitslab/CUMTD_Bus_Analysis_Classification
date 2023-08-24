@@ -1,14 +1,14 @@
 # CUMTD Bus Analysis & Classification
 
 ## Contributors:
-- #### Louis Sungwoo Cho (Civil Engineering Transportation & Computer Science Minor)
-- #### Joey Junyi Cao (Aerospace Engineering)
-- #### Ethan Chow (Computer Engineering)
-- #### Sam Guagliardo (Civil Engineering Transportation)
-- #### Jesse Ekanya (Civil Engineering Transportation)
-- #### Saranya Yegappan (Environmental Engineering)
-- #### Brandon Mah (Civil Engineering Transportation)
-- #### Brandon Tomic (Civil Engineering Transportation)
+- #### Louis Sungwoo Cho, Civil Engineering (Transportation) & Computer Science Minor, UIUC
+- #### Joey Junyi Cao, Aerospace Engineering, UIUC
+- #### Ethan Chow, Computer Engineering, UIUC
+- #### Sam Guagliardo, Civil Engineering (Transportation), UIUC
+- #### Jesse Ekanya, Civil Engineering (Transportation), UIUC
+- #### Saranya Yegappan, Environmental Engineering, UIUC
+- #### Brandon Mah, Civil Engineering (Transportation), UIUC
+- #### Brandon Tomic, Civil Engineering (Transportation), UIUC
 
 ## Project Description:
 Institute of Transportation Engineers UIUC Chapter (aka ITE@UIUC) is a registered student organization at the University of Illinois at Urbana-Champaign. Our organization has been working on collecting images of transit buses operated by the Champaign-Urbana Mass Transit District (CUMTD). Our RSO Institute of Transportation Engineers UIUC Chapter (ITE@UIUC) presented our project during the 2023 Engineering Open House (EOH) hosted by the Grainger College of Engineering at the University of Illinois at Urbana-Champaign (UIUC). 
@@ -24,16 +24,6 @@ This project is about analyzing and predicting the ridership of the buses in the
 - #### Image source: [CUMTD Bus Photos](https://yourewelcomecu.com/cumtd-bus-photos/)
 
 Datasets from the years 1997 to 2022 and months of July, October, December and February were used to analyze and predict the passenger volume for the bus network.
-
-
-![Alt text](https://mtd.org/media/1096/weekday-daytime-no-insets.png?anchor=center&mode=crop&width=1200&height=720&rnd=132734497340000000)
-
-
-The image above shows the CUMTD bus network that connects Campustown, Champaign and Urbana.
-- #### Image source: [CUMTD Schedules](https://mtd.org/maps-and-schedules/maps/)
-
-As shown in the image above, the CUMTD bus network is very dense connecting almost all the popular places visited by many passengers.
-
 
 # Motivation
 
