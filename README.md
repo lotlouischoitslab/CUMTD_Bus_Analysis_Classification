@@ -1,7 +1,7 @@
 # CUMTD Bus Analysis & Classification
 
 ## Contributors:
-- #### Louis Sungwoo Cho, Civil Engineering (Transportation) & Computer Science Minor, UIUC
+- #### Louis Sungwoo Cho, Civil Engineering (Transportation) Major & Computer Science Minor, UIUC
 - #### Joey Junyi Cao, Aerospace Engineering, UIUC
 - #### Ethan Chow, Computer Engineering, UIUC
 - #### Sam Guagliardo, Civil Engineering (Transportation), UIUC
